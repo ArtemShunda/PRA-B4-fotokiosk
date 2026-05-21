@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php require_once __DIR__.'/resources/components/head.php'; ?>
-    <title>Fotokiosk</title>
+    <title>Fotokiosk Main Page</title>
 </head>
 <body class="bg-[linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('/img/pattern.jpg')] bg-repeat bg-[length:300px_300px]">
     <header>
