@@ -4,7 +4,7 @@
     <?php require_once __DIR__.'/resources/components/head.php'; ?>
     <title>Fotokiosk</title>
 </head>
-<body class="bg-[linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('./resources/fotos/pattern.jpg')] bg-repeat bg-[length:300px_300px]">
+<body class="bg-[linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('/img/pattern.jpg')] bg-repeat bg-[length:300px_300px]">
     <header>
         <div class="header-container bg-[#2C2B3C] mx-auto py-4 px-7 flex items-center justify-between">
             <h1 class="text-4xl font-bold text-yellow-200">Fotokiosk</h1>
