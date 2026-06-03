@@ -6,8 +6,8 @@
 </head>
 <body class="bg-[linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('/img/pattern.jpg')] bg-repeat bg-[length:300px_300px] flex flex-col min-h-screen">
     <header>
-        <div class="header-container bg-[#2C2B3C] mx-auto py-4 px-7 flex items-center justify-between">
-            <h1 class="text-4xl font-bold text-yellow-200">Fotokiosk</h1>
+        <div class="header-container sticky top-0 z-40 backdrop-blur-md bg-[#2C2B3C]/95 border-b border-white/10 mx-auto py-5 px-8 flex items-center justify-between shadow-lg">
+            <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-yellow-200">Fotokiosk</h1>
             <button id="open-modal-button" class="text-yellow-200 hover:text-yellow-300 transition duration-300 focus:outline-none">
                 <svg xmlns="http://w3.org" viewBox="0 0 24 24" class="w-8 h-8">
                     <path d="M23 2.13h-2.6a1.49 1.49 0 0 0 -1.46 1.15l-1.12 4.65a0.26 0.26 0 0 1 -0.25 0.2H1.09a1 1 0 0 0 -0.81 0.41 1 1 0 0 0 -0.14 0.9l2.67 8a1 1 0 0 0 0.95 0.69H15.1a0.25 0.25 0 0 1 0.2 0.09 0.26 0.26 0 0 1 0 0.21l-0.11 0.5a0.26 0.26 0 0 1 -0.25 0.2H4.92a2.25 2.25 0 1 0 2.3 2.25 0.25 0.25 0 0 1 0.08 -0.18 0.22 0 0 1 0.17 -0.07h6a0.25 0.25 0 0 1 0.25 0.25 2.25 2.25 0 1 0 3.57 -1.83 0.22 0.22 0 0 1 -0.09 -0.25l3.52 -15a0.26 0.26 0 0 1 0.28 -0.17h2a1 1 0 0 0 0 -2Z" fill="currentColor" stroke-width="1"></path>
@@ -18,8 +18,8 @@
             
         </div>
     </header>
-    <main class="max-w-7xl mx-auto px-6 mt-10 mb-10 flex flex-col md:flex-row gap-6 w-full flex-grow items-start">
-        <div class="main-container w-full md:w-1/2 py-10 px-7 bg-[#2C2B3C] rounded-lg flex flex-col justify-center">
+    <main class="max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row gap-8 w-full flex-grow items-stretch">
+        <div class="main-container w-full lg:w-1/2 py-14 px-10 bg-[#2C2B3C]/95 backdrop-blur-md rounded-3xl shadow-2xl border border-white/10 flex flex-col justify-center">
             <h2 class="text-2xl font-bold text-yellow-200 mb-6">Welkom bij de Fotokiosk!</h2>
             <p class="text-gray-300 mb-4">Hier kunt u uw foto's bekijken, bewerken en afdrukken. Klik op de onderstaande knop om te beginnen.</p>
             <a href="<?php echo $base_url; ?>/resources/fotokiosk/index.php" class="inline-block bg-yellow-200 text-[#2C2B3C] font-bold py-2 px-4 rounded hover:bg-yellow-300 transition duration-300 self-start">Start Fotokiosk</a>
@@ -29,14 +29,14 @@
         </div>
 
     </main>
-    <footer class="bg-[#2C2B3C] py-6 px-7 text-gray-400 text-sm mt-auto">
+    <footer class="bg-[#2C2B3C]/95 backdrop-blur-md border-t border-white/10 py-4 px-7 text-gray-400 text-sm mt-auto">
         <div class="max-w-7xl mx-auto">
             <p>&copy; 2026 Fotokiosk. Nikita-Artem-Berkay.</p>
         </div>
     </footer>
     <div id="my-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 hidden">
         
-        <div class="bg-[#2C2B3C] text-white w-full max-w-md rounded-lg shadow-2xl overflow-hidden border border-gray-700">
+        <div class="bg-[#2C2B3C]/95 backdrop-blur-xl text-white w-full max-w-md rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.45)] overflow-hidden border border-white/10">
             
             <div class="flex justify-between items-center border-b border-gray-700 p-4 bg-[#1E1D2A]">
                 <h3 class="text-lg font-bold tracking-wide uppercase text-yellow-200">Winkelmandje</h3>
